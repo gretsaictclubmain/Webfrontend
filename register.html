@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- Primary Meta Tags -->
+    <title>GretsaIctClub</title>
+    <meta name="title" content="GretsaIctClub : Online Portfolio.">
+    <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metatags.io/">
+    <meta property="og:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+    <meta property="og:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+    <!-- <meta property="twitter:image" content=""> -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://metatags.io/">
+    <meta property="twitter:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+    <meta property="twitter:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+    <!-- <meta property="twitter:image" content=""> -->
+
+    <!-- Bootstrap CDN -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+    <!-- Tailwind CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- owl carousel CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+    <!-- custom css -->
+    <link href="/tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        #menu-toggle:checked + #menu{
+            display: block;
+        }
+    </style>
+  </head>
+  <body class="antialiased bg-gray-200">
+
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+      <div class="flex-1 flex justify-between items-center">
+          <a href="index.html" class="hvr-grow-shadow">Logo</a>
+          <!-- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
+          <input type="checkbox" class="hidden" name="" id="menu-toggle" />
+          <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
+              <nav>
+                  <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                      <li>
+                          <a href="about.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">About</a>
+                      </li>
+                      <li>
+                          <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Events</a>
+                      </li>
+                      <li>
+                          <a href="register.html" class="active lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Registration/Login</a>
+                      </li>
+                      <li>
+                          <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Blog</a>
+                      </li>
+                      <li>
+                          <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Gallery</a>
+                      </li>
+                      <li>
+                          <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Hall of fame</a>
+                      </li>
+                      <li>
+                          <a href="contact.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Contact us</a>
+                      </li>
+                  </ul>
+              </nav>
+              <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
+                  <img src="images/testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
+              </a>
+          </div>
+      </div>
+    </header>
+    <div class="relative min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-gray-500 bg-no-repeat bg-cover relative items-center"
+      style="background-image: url(https://images.unsplash.com/photo-1525302220185-c387a117886e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);">
+      <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+      <div class="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
+        <div class="text-center">
+          <h2 class="mt-6 text-3xl font-bold text-gray-900">
+            Sign Up
+          </h2>
+          <p class="mt-2 text-sm text-gray-600"></p>
+        </div>
+        
+        
+        <form class="mt-8 space-y-6" action="#" method="POST">
+          <input type="hidden" name="remember" value="true">
+          <div class="mt-8 content-center">
+            <label class="text-sm font-bold text-gray-700 tracking-wide">
+              First Name
+            </label>
+            <input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="" autocomplete="given-name" placeholder="Enter your first name">
+          </div>
+          <div class="mt-8 content-center">
+            <label class="text-sm font-bold text-gray-700 tracking-wide">
+              Last Name
+            </label>
+            <input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="" autocomplete="given-name" placeholder="Enter your last name">
+          </div>
+          <div class="mt-8 content-center">
+            <label class="text-sm font-bold text-gray-700 tracking-wide">
+              Phone
+            </label>
+            <input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="" autocomplete="given-name" placeholder="Enter your phonenumber">
+          </div>
+          <div class="mt-8 content-center">
+            <label class="text-sm font-bold text-gray-700 tracking-wide">
+              Skills
+            </label>
+            <input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="" autocomplete="given-name" placeholder="Enter your skills">
+          </div>
+          <div class="relative">
+            <div class="absolute right-0 mt-4">
+              <svg xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+            </div>
+            <label class="text-sm font-bold text-gray-700 tracking-wide">Email</label>
+            <input class=" w-full text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="email" placeholder="mail@gmail.com">
+          </div>
+            <div class="mt-8 content-center">
+              <label class="text-sm font-bold text-gray-700 tracking-wide">
+                Password
+              </label>
+              <input class="w-full content-center text-base py-2 border-b border-gray-300 focus:outline-none focus:border-indigo-500" type="password" placeholder="Enter your password">
+            </div>
+            <div class="flex items-center justify-between">
+              <div class="flex items-center">
+                
+            </div>
+            
+          </div>
+          <div>
+            <button type="submit" class="w-full flex justify-center bg-indigo-500 text-gray-100 p-4  rounded-full tracking-wide
+                font-semibold  focus:outline-none focus:shadow-outline hover:bg-yellow-300 shadow-lg cursor-pointer transition ease-in duration-300">
+                  Sign up
+            </button>
+          </div>
+          <p class="flex flex-col items-center justify-center mt-10 text-center text-md text-gray-500">
+            <span>Already have an account?</span>
+            <a href="login.html" class="text-indigo-500 hover:text-indigo-500no-underline hover:underline cursor-pointer transition ease-in duration-300 hover\:bg-yellow-300">Sign in</a>
+          </p>
+        </form>
+      </div>   
+    </div>   
+  </body>
+</html>
+
+
+
