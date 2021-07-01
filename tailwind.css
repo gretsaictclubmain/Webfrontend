@@ -11,11 +11,16 @@ Document
 Use a better box model (opinionated).
 */
 
+.active{
+  background-color:black;
+  color:white;
+}
+
 /* navigation panekl*/
 * {
+  scroll-behavior: smooth; 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  scroll-behavior: smooth; 
   box-sizing: border-box;
   margin: 0;
   padding: 0;
