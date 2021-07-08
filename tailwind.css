@@ -10,6 +10,30 @@ Document
 /**
 Use a better box model (opinionated).
 */
+#client
+{
+    padding-top:30px;
+    padding-bottom: 40px;
+    margin-top: 190px;
+}
+
+#client p
+{
+    font-size:17px;
+    margin-top:20px;
+
+}
+#client .btn
+{
+    float:right; 
+    <button class="btn btn--primary">Accept</button> 
+}<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+Button
+</button>
+.clients .grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 
 .active{
   background-color:black;
