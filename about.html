@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
+    <title>About us</title>
 
 
     <!-- Primary Meta Tags -->
-    <title>About Us</title>
+    <title>GretsaIctClub</title>
     <meta name="title" content="GretsaIctClub : Online Portfolio.">
     <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
 
@@ -27,7 +27,7 @@
         <!-- <meta property="twitter:image" content=""> -->
 
     <!-- Bootstrap CDN -->
-    <!----<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
 
         <!-- Tailwind CDN -->
@@ -48,95 +48,160 @@
             display: block;
         }
     </style>
-<!--
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" >
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
-    <!---script links-->
-   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
-   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" ></script>
-   
 </head>
 <body class="antialiased bg-gray-200">
-    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-2">
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-0 py-5 relative">
         <div class="flex-1 flex justify-between items-center">
-            <a href="index.html" class="hvr-grow-shadow">Logo</a>
+            <a href="index.html" class="block">
+              <span class="sr-only">GretsaIctClub</span>
+              <img class="h-6 md:h-8" src="images/testimage.png" alt="Logo" title="Logo">
+            </a>
             <!-- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
-            <input type="checkbox" class="hidden" name="" id="menu-toggle" />
-            <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
-                <nav>
+            <div class="flex md:hidden">
+              <button id="hamburger">
+                <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+                <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+              </button>
+            </div>
+            <!-- <input type="checkbox" class="hidden" name="" id="menu-toggle" /> -->
+                <div class="toggle hidden md:flex w-full md:w-auto text-center text-bold mt-5 md:mt-0 md:border-none" id="menu">
+                  <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0">
                     <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
                         <li>
-                            <a href="about.html" class="active lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">About</a>
+                            <a href="about.html" class="active lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">About</a>
                         </li>
                         <li>
-                            <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Events</a>
+                            <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Events</a>
                         </li>
                         <li>
-                            <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Registration/Login</a>
+                            <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Registration/Login</a>
                         </li>
                         <li>
-                            <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Blog</a>
+                            <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Blog</a>
                         </li>
                         <li>
-                            <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Gallery</a>
+                            <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Gallery</a>
                         </li>
                         <li>
-                            <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Hall of fame</a>
+                          <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Hall of fame</a>
                         </li>
                         <li>
-                            <a href="contact.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent hvr-grow-shadow">Contact us</a>
+                            <a href="contact.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Contact us</a>
+                        </li>
+                        <li>
+                          <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
+                            <img src="images/testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
+                          </a>
                         </li>
                     </ul>
                 </nav>
-                <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
-                    <img src="images/testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
-                </a>
+                
             </div>
         </div>
     </header>
 
     <!-- your code goes here -->
 
-    <!------members----->
-    <style>
+        <!------club description section----->
+        <style>
       
-    </style>
-    <section id="client">
-      <div class="container">
-        <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">
-          
-          <div class="clients grid-cols-2">
-               <img class="d-block img-fluid" src="images/testimage.png"  >
+        </style>
+        <section id="client">
+          <div class="container">
+            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">
+              
+              <div class="clients grid-cols-2">
+                   <img class="d-block img-fluid" src="images/testimage.png"  >
+                  </div>
+                   <div class="clients grid-cols-2"style="text-align:center;">
+                    <div class="stdname" style="font-weight: bolder; font-size:32px;">
+                        <h2>Gretsa University</h2>
+                        <h3>ICT Club </h3>
+                    </div>
+                  <div class="stddescription" style="font-size:20px;">
+                    <p>
+                        Gretsa ICT club comprises of young minds with great ideas and among us we have developers with vision and idealistic students.
+                        As a young upcoming team,we accept ideas on anything in and out of the technology perspective.
+                      </p>
+                  </div>
+            
+                      
+                  </div>
               </div>
-               <div class="clients grid-cols-2"style="text-align:center;">
-                <div class="stdname" style="font-weight: bolder; font-size:32px;">
-                    <h2>Jimmy _Blucs</h2>
-                    <h3>Chairperson </h3>
-                </div>
-              <div class="stddescription" style="font-size:20px;">
-                <p>
-                    Gretsa ICT club comprises of young minds with great ideas and among us we have developers with vision and idealistic students.
-                    As a young upcoming team,we accept ideas on anything in and out of the technology perspective.
+              
+              </div>
+          </section>
+    
+          <!---officials section-->
+          <section id="events" class="pt-10">
+           <h1 class="font-bold text-xl mb-2 text-center" style="font-weight: bolder; font-size:32px;">Team Officials</h1>
+            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
+                  <!--Card 0-->
+                  <div class="rounded overflow-hidden shadow-lg">
+                    <img class="w-full" src="images/testimage.png" alt="image">
+                    <div class="px-6 py-4">
+                      <div class="font-bold text-xl mb-2">Chairperson</div>
+                      <p class="text-gray-700 text-base">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                      </p>
+                    </div>
+                    <div class="px-6 pt-4 pb-2">
+                        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2"> <h3>Jimmy_Blucs</span>
+                        
+                    </div>
+                  </div>
+              <!--Card 1-->
+              <div class="rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="images/testimage.png" alt="image">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Project Manager</div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
                   </p>
-              </div>
-              <div  class="  mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
-                <div class="rounded-md shadow">
-                  <a href="styling.html"  class=" transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 w-50 flex items-center justify-center border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-blue-800 md:py-4 md:text-lg md:px-10">
-                   view more<span>>></span>
-                  </a>
                 </div>
-                
+                <div class="px-6 pt-4 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2"> <h3>Paul Serian</span>
+                    
+                </div>
               </div>
-                   <!--<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" style ="margin-top: 20px;">
-                        <a href="viewB.html" class="button">view more</a>
-                    </button> -->
+        
+              <!--Card 2-->
+              <div class="rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="images/testimage.png" alt="image">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2"><strong>Secretary</strong></div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2"> <h3>James Zacharia Hamisi</span>
+                    
+                </div>
               </div>
-          </div>
           
+              <!--Card 3-->
+              <div class="rounded overflow-hidden shadow-lg">
+                <img class="w-full" src="images/testimage.png" alt="image">
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Treasurer</div>
+                  <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                  </p>
+                </div>
+                <div class="px-6 pt-4 pb-2">
+                   
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-bold text-gray-700 mr-2 mb-2"> <h3>Geofrey Bisonga</span>
+                    
+                </div>
+              
+              </div>
+            </div>
+            
           </div>
-      </section>
-
+        
+          
+          </section>
     <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700">  
     
         <div class="container mx-auto px-6"> 
@@ -155,5 +220,8 @@
           </div>
         </div>  
     </footer>
+
+    <!-- navbar js -->
+    <script src="nav.js"></script>
 </body>
 </html>
