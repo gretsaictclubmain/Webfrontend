@@ -43,11 +43,7 @@
         <!-- custom css -->
         <link href="/tailwind.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <style>
-            #menu-toggle:checked + #menu{
-                display: block;
-            }
-        </style>
+        
     </head>
     <body class="antialiased bg-gray-200">
         <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-0 py-5 relative">
@@ -100,20 +96,42 @@
             </div>
         </header>
         <!-- Your code goes here -->  
+        <section id="star">
+          <div class="container">
+            <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">             
+              <div class="clients grid-cols-2">
+                <img class="rounded-3xl d-block img-fluid" src="images/testimage.png">
+              </div>
+              <div class="clients grid-cols-2"style="text-align:center;">
+                <div class="stdname" style="font-weight: bolder; font-size:32px;">
+                    <h2>Student of the Week</h2>
+                </div>
+                <div class="stddescription" style="font-size:20px;">
+                  <div class="font-bold text-xl mb-2">Name:<span class="px-2">Student Name</span></div>
+                  <div class="text-base mb-2">Role:<span class="px-2">Role</span></div>
+                  <div class="text-base mb-2">Description:<span class="px-2">Description</span></div>
 
+                </div>    
+              </div>
+                              
+            </div>
+          </div>
+        </section>
 
-        <section id="events" class="pt-10">
-          <h1 class="font-bold text-xl mb-2 text-center">Hall of Fame</h1>
+        <section id="fame" class="pt-10">
+          <h1 class="text-4xl font-extrabold text-xl mb-2 text-center">Hall of Fame</h1>
           <div class="bg-gray-200 p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-5">
             <!--Card 1-->
             <div class="rounded overflow-hidden shadow-lg transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-gray-900 hover:text-white">
               <img class="w-full" src="images/testimage.png" alt="Mountain">
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Name:<span class="px-2">Student Name</span></div>
+                <div class="font-bold mb-2">Skill:<span class="px-2">Frontend Development</span></div>
+
                 <div>
                   <span class="text-base">
                     <i class="fas fa-link">
-                    <a class='md:no-underline md:hover:underline text-base' href="#">Github Profile</a></i>
+                    <a class='md:no-underline md:hover:underline text-base' href="#">Email</a></i>
                   </span>
                 </div>
                 <p class="text-base">
@@ -133,10 +151,12 @@
               <img class="w-full" src="images/testimage.png" alt="Mountain">
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Name:<span class="px-2">Student Name</span></div>
+                <div class="font-bold mb-2">Skill:<span class="px-2">Frontend Development</span></div>
+
                 <div>
                   <span class="text-base">
                     <i class="fas fa-link">
-                    <a class='md:no-underline md:hover:underline text-base' href="#">Github Profile</a></i>
+                    <a class='md:no-underline md:hover:underline text-base' href="#">Email</a></i>
                   </span>
                 </div>
                 <p class="text-base">
@@ -157,10 +177,12 @@
               <img class="w-full" src="images/testimage.png" alt="Mountain">
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Name:<span class="px-2">Student Name</span></div>
+                <div class="font-bold mb-2">Skill:<span class="px-2">Frontend Development</span></div>
+
                 <div>
                   <span class="text-base">
                     <i class="fas fa-link">
-                    <a class='md:no-underline md:hover:underline text-base' href="#">Github Profile</a></i>
+                    <a class='md:no-underline md:hover:underline text-base' href="#">Email</a></i>
                   </span>
                 </div>
                 <p class="text-base">
@@ -180,10 +202,12 @@
               <img class="w-full" src="images/testimage.png" alt="Mountain">
               <div class="px-6 py-4">
                 <div class="font-bold text-xl mb-2">Name:<span class="px-2">Student Name</span></div>
+                <div class="font-bold mb-2">Skill:<span class="px-2">Frontend Development</span></div>
+
                 <div>
                   <span class="text-base">
                     <i class="fas fa-link">
-                    <a class='md:no-underline md:hover:underline text-base' href="#">Github Profile</a></i>
+                    <a class='md:no-underline md:hover:underline text-base' href="#">Email</a></i>
                   </span>
                 </div>
                 <p class="text-base">
@@ -197,14 +221,13 @@
                   </i>
                 </a>
               </div>
-            </div>  
+            </div> 
             <!--end ofcards-->
           </div>            
         </section>
 
 
         <footer class=" bg-gray-200 footer bg-white relative pt-1 border-b-2 border-blue-700">  
-    
             <div class="container mx-auto px-6"> 
               <div class="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
                 <div class="sm:w-2/3 text-center py-6">

@@ -1,168 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Us</title>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact Us</title>
 
 
-        <!-- Primary Meta Tags -->
-        <title>GretsaIctClub</title>
-        <meta name="title" content="GretsaIctClub : Online Portfolio.">
-        <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+      <!-- Primary Meta Tags -->
+      <title>GretsaIctClub</title>
+      <meta name="title" content="GretsaIctClub : Online Portfolio.">
+      <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
 
-        <!-- Open Graph / Facebook -->
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://metatags.io/">
-        <meta property="og:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
-        <meta property="og:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
-        <!-- <meta property="twitter:image" content=""> -->
+      <!-- Open Graph / Facebook -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://metatags.io/">
+      <meta property="og:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+      <meta property="og:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+      <!-- <meta property="twitter:image" content=""> -->
 
-        <!-- Twitter -->
-        <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://metatags.io/">
-        <meta property="twitter:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
-        <meta property="twitter:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
-        <!-- <meta property="twitter:image" content=""> -->
+      <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://metatags.io/">
+      <meta property="twitter:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+      <meta property="twitter:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+      <!-- <meta property="twitter:image" content=""> -->
 
-        <!-- Bootstrap CDN -->
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+      <!-- Bootstrap CDN -->
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
 
-        <!-- Tailwind CDN -->
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+      <!-- Tailwind CDN -->
+      <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-        <!-- owl carousel CDN-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+      <!-- owl carousel CDN-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
 
-        <!-- font awesome icons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+      <!-- font awesome icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
 
-        <!-- custom css -->
-        <link href="/tailwind.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <style>
-            #menu-toggle:checked + #menu{
-                display: block;
-            }
-        </style>
-    </head>
-    <body class="antialiased bg-gray-200">
-      <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-0 py-5 relative">
-        <div class="flex-1 flex justify-between items-center">
-            <a href="index.html" class="block">
-              <span class="sr-only">GretsaIctClub</span>
-              <img class="h-6 md:h-8" src="images/testimage.png" alt="Logo" title="Logo">
-            </a>
-            <!-- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
-            <div class="flex md:hidden">
-              <button id="hamburger">
-                <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
-                <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
-              </button>
-            </div>
-            <!-- <input type="checkbox" class="hidden" name="" id="menu-toggle" /> -->
-                <div class="toggle hidden md:flex w-full md:w-auto text-center text-bold mt-5 md:mt-0 md:border-none" id="menu">
-                  <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0">
-                    <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
-                        <li>
-                            <a href="about.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">About</a>
-                        </li>
-                        <li>
-                            <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Events</a>
-                        </li>
-                        <li>
-                            <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Registration/Login</a>
-                        </li>
-                        <li>
-                            <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Blog</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Gallery</a>
-                        </li>
-                        <li>
-                          <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Hall of fame</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="active lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Contact us</a>
-                        </li>
-                        <li>
-                          <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
-                            <img src="images/testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
-                          </a>
-                        </li>
-                    </ul>
-                </nav>
-                
-            </div>
-        </div>
-    </header>
-        <!-- Your code goes here -->          
-
-      <div class="relative min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-gray-500 bg-no-repeat bg-cover relative items-center"
-        style="background-image: url(https://images.unsplash.com/photo-1525302220185-c387a117886e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);">   
-        <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
-          <div class="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
-            <!-- component -->
-            <div class="flex p-5 flex-col justify-center items-center h-32 bg-indigo-400">
-                <h3 class="text-lg text-white">How can we help?</h3>
-                <p class="text-white opacity-50">We usually respond in a few hours</p>
-            </div>
-            <form class="w-full max-w-lg">
-              <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
-                    First Name
-                  </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Gretsa">
-                </div>
-                <div class="w-full md:w-1/2 px-3">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
-                    Last Name
-                  </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="ICT">
-                </div>
-              </div>
-              <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full px-3">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-                    E-mail
-                  </label>
-                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="mail@gmail.com">
-                  <!-- <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>   -->
-                  <!-- <div class="empty-feedback text-red-400 text-sm mt-1">
-                      Please provide your email address.
-                    </div>
-                    <div class="invalid-feedback text-red-400 text-sm mt-1">
-                      Please provide a valid email address.
-                  </div> -->
-                </div>
-              </div>
-              <div class="flex flex-wrap -mx-3 mb-6">
-                <div class="w-full px-3">
-                  <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
-                    Message
-                  </label>
-                  <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message" placeholder="Please enter your message"></textarea>
-                  <!-- <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p> -->
-                </div>
-              </div>
-              <div>
-                  <button type="submit" class="w-full flex justify-center bg-indigo-500 text-gray-100 p-4  rounded-full tracking-wide
-                      font-semibold  focus:outline-none focus:shadow-outline hover:bg-yellow-300 shadow-lg cursor-pointer transition ease-in duration-300">
-                      Send
-                  </button>
-                  <div class="md:w-2/3"></div>
-              </div>
-            </form>
+      <!-- custom css -->
+      <link href="/tailwind.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <style>
+          #menu-toggle:checked + #menu{
+              display: block;
+          }
+      </style>
+  </head>
+  <body class="antialiased bg-gray-200">
+    <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-1 py-5 relative">
+      <div class="flex-1 flex justify-between items-center">
+          <a href="index.html" class="block">
+            <span class="sr-only">GretsaIctClub</span>
+            <img class="h-6 md:h-8" src="images/testimage.png" alt="Logo" title="Logo">
+          </a>
+          <!-- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
+          <div class="flex md:hidden">
+            <button id="hamburger">
+              <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+              <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+            </button>
           </div>
-      </div> 
+          <!-- <input type="checkbox" class="hidden" name="" id="menu-toggle" /> -->
+          <div class="toggle hidden md:flex w-full md:w-auto text-center text-bold mt-5 md:mt-0 md:border-none" id="menu">
+            <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0">
+              <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                  <li>
+                      <a href="about.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">About</a>
+                  </li>
+                  <li>
+                      <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Events</a>
+                  </li>
+                  <li>
+                      <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Registration/Login</a>
+                  </li>
+                  <li>
+                      <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Blog</a>
+                  </li>
+                  <li>
+                      <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Gallery</a>
+                  </li>
+                  <li>
+                    <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Hall of fame</a>
+                  </li>
+                  <li>
+                      <a href="contact.html" class="active lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Contact us</a>
+                  </li>
+                  <li class="relative inline-block text-center dropdown">
+                    <button class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer" type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+                      <img src="images/testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
+                      <svg class="w-5 h-5 ml-2 -mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </button>
 
-      <!-- navbar js -->
-      <script src="nav.js"></script>
+                    <div class="opacity-0 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95">
+                      <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                      <div class="px-4 py-3">         
+                        <p class="text-sm leading-5">Signed in as</p>
+                        <p class="text-sm font-medium leading-5 text-gray-900 truncate">tom@example.com</p>
+                      </div>
+                      <div class="py-1">
+                        <a href="#" tabindex="1" class="text-gray-700 flex justify-between w-full px-3 py-2 text-sm leading-5 text-left"  role="menuitem" >Sign out</a></div>
+                      </div>
+                    </div>
+                  </li>
+              </ul>
+            </nav>       
+          </div>
+      </div>
+    </header>
+    <!-- Your code goes here -->          
+    <div class="relative min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8 bg-gray-500 bg-no-repeat bg-cover relative items-center"
+      style="background-image: url(https://images.unsplash.com/photo-1525302220185-c387a117886e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);">   
+      <div class="absolute bg-black opacity-60 inset-0 z-0"></div>
+        <div class="max-w-md w-full space-y-8 p-10 bg-white rounded-xl z-10">
+          <!-- component -->
+          <div class="flex p-5 flex-col justify-center items-center h-32 bg-indigo-400">
+              <h3 class="text-lg text-white">How can we help?</h3>
+              <p class="text-white opacity-50">We usually respond in a few hours</p>
+          </div>
+          <form class="w-full max-w-lg">
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  First Name
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" placeholder="Gretsa">
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Last Name
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="ICT">
+              </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                  E-mail
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="email" type="email" placeholder="mail@gmail.com">
+                <!-- <p class="text-gray-600 text-xs italic">Some tips - as long as needed</p>   -->
+                <!-- <div class="empty-feedback text-red-400 text-sm mt-1">
+                    Please provide your email address.
+                  </div>
+                  <div class="invalid-feedback text-red-400 text-sm mt-1">
+                    Please provide a valid email address.
+                </div> -->
+              </div>
+            </div>
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-password">
+                  Message
+                </label>
+                <textarea class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="message" placeholder="Please enter your message"></textarea>
+                <!-- <p class="text-gray-600 text-xs italic">Re-size can be disabled by set by resize-none / resize-y / resize-x / resize</p> -->
+              </div>
+            </div>
+            <div>
+                <button type="submit" class="w-full flex justify-center bg-indigo-500 text-gray-100 p-4  rounded-full tracking-wide
+                    font-semibold  focus:outline-none focus:shadow-outline hover:bg-yellow-300 shadow-lg cursor-pointer transition ease-in duration-300">
+                    Send
+                </button>
+                <div class="md:w-2/3"></div>
+            </div>
+          </form>
+        </div>
+    </div> 
+    <!-- navbar js -->
+    <script src="nav.js"></script>
   </body>
-
 </html>
   
