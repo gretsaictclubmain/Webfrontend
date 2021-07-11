@@ -11,14 +11,6 @@ Document
 Use a better box model (opinionated).
 */
 
-/* sign out dropdown */
-.dropdown:focus-within .dropdown-menu {
-  opacity:1;
-  transform: translate(0) scale(1);
-  visibility: visible;
-}
-
-
 #client
 {
     padding-top:30px;
