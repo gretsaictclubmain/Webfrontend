@@ -10,6 +10,15 @@ Document
 /**
 Use a better box model (opinionated).
 */
+
+/* sign out dropdown */
+.dropdown:focus-within .dropdown-menu {
+  opacity:1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
+
 #client
 {
     padding-top:30px;
@@ -23,13 +32,12 @@ Use a better box model (opinionated).
     margin-top:20px;
 
 }
+
 #client .btn
 {
     float:right; 
-    <button class="btn btn--primary">Accept</button> 
-}<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-Button
-</button>
+}
+
 .clients .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
