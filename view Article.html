@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>view article</title>
+
+
+        <!-- Primary Meta Tags -->
+        <title>GretsaIctClub</title>
+        <meta name="title" content="GretsaIctClub : Online Portfolio.">
+        <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://metatags.io/">
+        <meta property="og:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+        <meta property="og:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+        <!-- <meta property="twitter:image" content=""> -->
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://metatags.io/">
+        <meta property="twitter:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+        <meta property="twitter:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+        <!-- <meta property="twitter:image" content=""> -->
+
+        <!-- Bootstrap CDN -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+        <link href="./css/tailwind.css" rel="stylesheet">
+        <!-- Tailwind CDN -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+        <!-- owl carousel CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+        <!-- custom css -->
+       
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <style>
+            #menu-toggle:checked + #menu{
+                display: block;
+            }
+        </style>
+    </head>
+    <body class="antialiased bg-gray-200">
+        <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-0 py-5 relative">
+            <div class="flex-1 flex justify-between items-center">
+                <!--logo-->
+                <a href="index.html" class="block">
+                    <span class="sr-only">GretsaIctClub</span>
+                    <img class="h-6 md:h-8" src="testimage.png" alt="Logo" title="Logo">
+                  </a>
+                <!---- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
+                <div class="flex md:hidden">
+                  <button id="hamburger">
+                    <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+                    <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+                  </button>
+                </div>
+                <!--end of the logo-->
+                <!-- <input type="checkbox" class="hidden" name="" id="menu-toggle" /> -->
+                    <div class="toggle hidden md:flex w-full md:w-auto text-center text-bold mt-5 md:mt-0 md:border-none" id="menu">
+                      <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0">
+                        <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                            <li>
+                                <a href="about.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">About</a>
+                            </li>
+                            <li>
+                                <a href="events.html" class="active lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Events</a>
+                            </li>
+                            <li>
+                                <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Registration/Login</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Blog</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Gallery</a>
+                            </li>
+                            <li>
+                              <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Hall of fame</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Contact us</a>
+                            </li>
+                            <li>
+                              <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
+                                <img src="testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
+                              </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+        </header>
+        <!-- Your code goes here -->
+        <main class="max-w-5xl mx-auto pb-10 pt-10">
+            <div class="flex flex-wrap overflow-hidden">
+                <div class="w-full overflow-hidden md:w-4/6 lg:w-4/6 xl:w-4/6">
+                    <div class="mr-2 md:mr-4 ml-2">
+                        <div class="pb-10">
+                            <!-- first post -->
+                            <div>
+                                <img class="article-image" src="testimage.png" alt="">
+                                <h2 class="text-gray-900 font-serif text-3xl my-5 font-thin"><a href="">How To Program More By Coding Less</a></h2>
+                                <span class="text-xs text-gray-800 font-thin block mb-5">By Page. July 02, 2021</span>
+                                <div class="article-body">
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis exercitationem tempora aliquam doloribus iure nisi quas sed mollitia, ducimus soluta, aut minus quidem sapiente facere at cupiditate voluptatum quibusdam voluptate.</p>
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis exercitationem tempora aliquam doloribus iure nisi quas sed mollitia, ducimus soluta, aut minus quidem sapiente facere at cupiditate voluptatum quibusdam voluptate.</p>
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis exercitationem tempora aliquam doloribus iure nisi quas sed mollitia, ducimus soluta, aut minus quidem sapiente facere at cupiditate voluptatum quibusdam voluptate.</p>
+                                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis exercitationem tempora aliquam doloribus iure nisi quas sed mollitia, ducimus soluta, aut minus quidem sapiente facere at cupiditate voluptatum quibusdam voluptate.</p>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- component -->
+<!-- comment form -->
+<div class="flex mx-2 items-center justify-center shadow-lg mt-8 mx-8 mb-4 max-w-lg">
+    <form class="w-full max-w-xl bg-white rounded-lg px-4 pt-2">
+       <div class="flex flex-wrap -mx-3 mb-6">
+          <h2 class="px-4 pt-3 pb-2 text-gray-800 text-lg">Add a new comment</h2>
+          <div class="w-full md:w-full px-3 mb-2 mt-2">
+             <textarea class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-700 focus:outline-none focus:bg-white" name="body" placeholder='Type Your Comment' required></textarea>
+          </div>
+          <div class="w-full md:w-full flex items-start md:w-full px-3">
+             <div class="flex items-start w-1/2 text-gray-700 px-2 mr-auto">
+                <h4><strong>Like: </strong></h4>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                  </svg>
+             </div>
+             <div class="-mr-1">
+                <input type='submit' class="bg-white text-gray-700 font-medium py-1 px-4 border border-gray-400 rounded-lg tracking-wide mr-1 hover:bg-gray-100" value='Post Comment'>
+             </div>
+          </div>
+       </form>
+    </div>
+ </div>
+ <h2 class="font-light text-xl mb-5 text-gray-900 text-center">Other Comments</h2>
+ 
+    <ul>
+        <div class=" mx-2 items-center justify-center shadow-lg mt-1 mx-2 mb-1 max-w-lg">
+        <li class="mb-3">
+                   <div class="w-3/6 p-2">
+                   <img src="testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="" >
+                      <h4>paulserian@gmail.com : </h4>
+                      <span class="text-xs text-gray-800 font-thin block mb-5">December 02, 2021   5:44 Am</span>
+                   </div>
+        </li>
+    </div>
+    <div class=" mx-2 items-center justify-center shadow-lg mt-1 mx-2 mb-1 max-w-lg">
+        <li class="mb-3">
+                   <div class="w-3/6 p-2">
+                   <img src="testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="" >
+                      <h4>paulserian@gmail.com : </h4>
+                      <span class="text-xs text-gray-800 font-thin block mb-5">December 02, 2021   5:44 Am</span>
+                   </div>
+        </li>
+    </div>
+    <div class=" mx-2 items-center justify-center shadow-lg mt-1 mx-2 mb-1 max-w-lg">
+        <li class="mb-3">
+                   <div class="w-3/6 p-2">
+                   <img src="testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="" >
+                      <h4>paulserian@gmail.com : </h4>
+                      <span class="text-xs text-gray-800 font-thin block mb-5">December 02, 2021   5:44 Am</span>
+                   </div>
+        </li>
+    </div>
+  
+  
+        </ul>
+ 
+ 
+                </div>
+                
+                
+                 <!-- sidebar -->
+                <div class="w-full overflow-hidden md:w-2/6 lg:w-2/6 xl:w-2/6">
+                   
+                    <div class="ml-2 md:ml-4 mr-2">
+                       
+                        <div class="mt-10">
+                            <h2 class="font-light text-xl mb-5 text-gray-900 text-center">Categories</h2>
+                            <ul>
+                                <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Programming Tips</a><span class="text-gray-700 text-lg font-thin p-2">2</span></li>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Coding Life</a><span class="text-gray-700 text-lg font-thin p-2">10</span></li>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Life as a Developer</a><span class="text-gray-700 text-lg font-thin p-2">7</span></li>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Software Developer</a><span class="text-gray-700 text-lg font-thin p-2">4</span></li>
+                       </ul>
+                        </div>
+                        <div class="mt-10">
+                            <h2 class="font-light text-xl mb-5 text-gray-900 text-center">Recent Posts</h2>
+                            <ul>
+                                <li class="mb-3">
+                                    <a href="" class="flex">
+                                        <div class="w-1/3">
+                                            <img class="rounded" src="testimage.png" alt="">
+                                        </div>
+                                        <div class="w-2/3 p-2">
+                                            <h3 class="text-gray-900 font-thin font-serif mb-2">How To Program More By Coding Less</h3>
+                                            <span class="text-xs text-gray-800 font-thin block mb-5">December 02, 2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="flex">
+                                        <div class="w-1/3">
+                                            <img class="rounded" src="testimage.png" alt="">
+                                        </div>
+                                        <div class="w-2/3 p-2">
+                                            <h3 class="text-gray-900 font-thin font-serif mb-2">How To Program More By Coding Less</h3>
+                                            <span class="text-xs text-gray-800 font-thin block mb-5">October 22, 2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="mb-3">
+                                    <a href="" class="flex">
+                                        <div class="w-1/3">
+                                            <img class="rounded" src="testimage.png" alt="">
+                                        </div>
+                                        <div class="w-2/3 p-2">
+                                            <h3 class="text-gray-900 font-thin font-serif mb-2">How To Program More By Coding Less</h3>
+                                            <span class="text-xs text-gray-800 font-thin block mb-5">October 10, 2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mt-2 bg-gray-100 rounded-sm p-5">
+                            <div class="pb-6">
+                              
+                                <h2 class="font-light text-xl mb-2 text-center pt-5 text-gray-900">Subscribe to our newsletter</h2>
+                                <span class="block text-center article-body text-xs italic">Get the news right in your inbox!</span>
+                                <form action="">
+                                    <div class="bg-white border border-gray-400 mt-5 rounded-sm overflow-hidden">
+                                        <input class="bg-transparent w-full p-3" type="text" name="name" id="" placeholder="First Name">
+                                    </div>
+                                    <div class="bg-white border border-gray-400 mt-3 rounded-sm overflow-hidden">
+                                        <input class="bg-transparent w-full p-3" type="email" name="email" id="" placeholder="Email Address">
+                                    </div>
+                                    <div class="mt-3 article-body text-xs italic">
+                                        <span class="inline-block pr-1">
+                                            <input type="checkbox" name="" id="privacy-check">
+                                        </span>
+                                        <label for="privacy-check">By checking this you agree to our <a href="" class="text-orange-500">Privacy Policy</a>.</label>
+                                    </div>
+                                   <!--w-full rounded-sm bg-indigo-600 text-white tracking-widest text-sm uppercase font-medium py-3 mt-5--> 
+                                    <button type="submit" class="w-full rounded-sm bg-indigo-600 text-white tracking-widest text-sm uppercase font-medium py-3 mt-5 px-5  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110   items-center justify-center border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-yellow-300 lg:px-5 md:py-4 md:text-lg md:px-10 sm:px-2">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+             
+                
+            </div>
+        </main>
+        
+    
+
+
+
+        <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700">  
+    
+            <div class="container mx-auto px-6"> 
+              <div class="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-6">
+                  <p class="text-sm text-indigo-600 font-bold mb-2">
+                      © 2020 Gretsa ICT Club     
+                  </p>
+                  <div class="lg:text-center sm:text-center justify-between">
+                    <a href=""><i class="fab fa-instagram fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                    <a href="https://github.com/gretsaictclubmain"><i class="fab fa-github fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                    <a href=""><i class="fab fa-youtube fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>  
+        </footer>
+        <!-- navbar js -->
+        <script src="nav.js"></script>
+    </body>
+</html>

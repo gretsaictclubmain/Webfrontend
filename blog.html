@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blogs</title>
+
+
+        <!-- Primary Meta Tags -->
+        <title>GretsaIctClub</title>
+        <meta name="title" content="GretsaIctClub : Online Portfolio.">
+        <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://metatags.io/">
+        <meta property="og:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+        <meta property="og:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+        <!-- <meta property="twitter:image" content=""> -->
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://metatags.io/">
+        <meta property="twitter:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+        <meta property="twitter:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+        <!-- <meta property="twitter:image" content=""> -->
+
+        <!-- Bootstrap CDN -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+        <link href="./css/tailwind.css" rel="stylesheet">
+        <!-- Tailwind CDN -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+        <!-- owl carousel CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+        <!-- custom css -->
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <style>
+            #menu-toggle:checked + #menu{
+                display: block;
+            }
+        </style>
+    </head>
+    <body class="antialiased bg-gray-200 ">
+        <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-0 py-5 relative">
+            <div class="flex-1 flex justify-between items-center">
+                <a href="index.html" class="block">
+                  <span class="sr-only">GretsaIctClub</span>
+                  <img class="h-6 md:h-8" src="testimage.png" alt="Logo" title="Logo">
+                </a>
+                <!-- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
+                <div class="flex md:hidden">
+                  <button id="hamburger">
+                    <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+                    <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+                  </button>
+                </div>
+                <!-- <input type="checkbox" class="hidden" name="" id="menu-toggle" /> -->
+                    <div class="toggle hidden md:flex w-full md:w-auto text-center text-bold mt-5 md:mt-0 md:border-none" id="menu">
+                      <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0">
+                        <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                          <li>
+                            <a href="index.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Home</a>
+                        </li>
+                            <li>
+                                <a href="about.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">About</a>
+                            </li>
+                            <li>
+                                <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Events</a>
+                            </li>
+                            <li>
+                                <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Registration/Login</a>
+                            </li>
+                            <li>
+                                <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Blog</a>
+                            </li>
+                            <li>
+                                <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Gallery</a>
+                            </li>
+                            <li>
+                              <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Hall of fame</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Contact us</a>
+                            </li>
+                            <li>
+                              <a href="" class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer">
+                                <img src="testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
+                              </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                </div>
+            </div>
+        </header>
+        <!-- Your code goes here -->
+        <!--Start body code-->
+    <div class="bg-gray-100">
+        <!-- featured -->
+        <div class="max-w-5xl mx-auto pt-10 pb-10">
+            <ul class="flex flex-wrap -mx-2 overflow-hidden">
+                <li class="my-2 px-2 w-full overflow-hidden md:w-1/3 lg:w-1/3 xl:w-1/3">
+                    <a href="">
+                        <div class="mx-2 flex items-center justify-center bg-gray-300 bg-cover bg-center relative rounded overflow-hidden" style="height:400px; background-image:url(testimage.png)">
+                            <div class="absolute w-full h-full bg-black z-10 opacity-50"></div>
+                            <div class="relative z-20 text-center p-5">
+                                <span class="inline-block text-white font-semibold uppercase text-xs tracking-wide">Website Developement</span>
+                                <h2 class="text-white font-semibold font-serif text-xl my-5">Have you tried programming?</h2>
+                                <span class="inline-block text-xs text-white font-sans font-bold">Get full insight on this</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="my-2 px-2 w-full overflow-hidden md:w-1/3 lg:w-1/3 xl:w-1/3">
+                    <a href="">
+                        <div class="mx-2 flex items-center justify-center bg-gray-300 bg-cover bg-center relative rounded overflow-hidden" style="height:400px; background-image:url(testimage.png)">
+                            <div class="absolute w-full h-full bg-black z-10 opacity-50"></div>
+                            <div class="relative z-20 text-center p-5">
+                                <span class="inline-block text-white uppercase font-semibold text-xs tracking-wide">Android Developement</span>
+                                <h2 class="text-white font-semibold font-serif text-xl my-5">You want to learn Android developement?</h2>
+                                <span class="inline-block text-xs text-white font-bold font-sans">Read more on this here..</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="my-2 px-2 w-full overflow-hidden md:w-1/3 lg:w-1/3 xl:w-1/3">
+                    <a href="">
+                        <div class="mx-2 flex items-center justify-center bg-gray-300 bg-cover bg-center relative rounded overflow-hidden" style="height:400px; background-image:url(testimage.png)">
+                            <div class="absolute w-full h-full bg-black z-10 opacity-50"></div>
+                            <div class="relative z-20 text-center p-5">
+                                <span class="inline-block text-white font-semibold uppercase text-xs tracking-wide">Java and Javascript</span>
+                                <h2 class="text-white font-semibold font-serif text-xl my-5">Learn java and javascript in a simpler way</h2>
+                                <span class="inline-block text-xs text-white font-sans font-bold">Try it,It works..</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <main class="max-w-5xl mx-auto pb-10 pt-10">
+        <div class="flex flex-wrap overflow-hidden">
+            <div class="w-full overflow-hidden md:w-4/6 lg:w-4/6 xl:w-4/6">
+                <div class="mr-2 md:mr-4 ml-2">
+                    <div class="pb-10">
+                        <!-- first post -->
+                        <div>
+                            <img class="article-image" src="testimage.png" alt="">
+                            <h2 class="text-gray-900 font-serif text-3xl my-5 font-thin"><a href="">How To Program More By Coding Less</a></h2>
+                            <span class="text-xs text-gray-800 font-thin block mb-5">By Page. July 02, 2021</span>
+                            <p class="article-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sequi perspiciatis aliquid consequuntur laboriosam sed in, quo doloribus eius accusamus ab accusantium quisquam possimus amet ex dolorum at iure sit?</p>
+                            <a href="./article-details.html" class="readmore">Read More...</a>
+                        </div>
+                    </div>
+                    <div class="article-row">
+                        <div class="article-card-right">
+                            <div>
+                                <img class="article-image" src="testimage.png" alt="">
+                                <h2 class="article-title"><a href="">How To Program More By Coding Less</a></h2>
+                                <p class="article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem......</p>
+                                <a href="" class="readmore">Read More...</a>
+                            </div>
+                        </div>
+                        <div class="article-card-left">
+                            <div>
+                                <img class="article-image" src="testimage.png" alt="">
+                                <h2 class="article-title"><a href="">How To Program More By Coding Less</a></h2>
+                                <p class="article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem.......</p>
+                                <a href="" class="readmore">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-row">
+                        <div class="article-card-right">
+                            <div>
+                                <img class="article-image" src="testimage.png" alt="">
+                                <h2 class="article-title"><a href="">How To Program More By Coding Less</a></h2>
+                                <p class="article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem......</p>
+                                <a href="" class="readmore">Read More...</a>
+                            </div>
+                        </div>
+                        <div class="article-card-left">
+                            <div>
+                                <img class="article-image-" src="testimage.png" alt="">
+                                <h2 class="article-title"><a href="">How To Program More By Coding Less</a></h2>
+                                <p class="article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem....</p>
+                                <a href="" class="readmore">Read More...</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+               
+            
+            <div class="w-full overflow-hidden md:w-2/6 lg:w-2/6 xl:w-2/6">
+                <!-- sidebar -->
+                <div class="ml-2 md:ml-4 mr-2">
+                   
+                    <div class="mt-20">
+                        <h2 class="font-light text-xl mb-5 text-center">Search the blog</h2>
+                        <div class="relative border rounded-sm overflow-hidden">
+                            <form action="">
+                                <input class="w-full relative p-5 font-light text-gray-900 border-0" type="text" name="s" id="" placeholder="Search...">
+                                <button type="submit" class="bg-transparent border-0 absolute right-0 px-5 py-5 top-2">
+                                    <span class="block w-5">
+                                        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M495 466.2L377.2 348.4c29.2-35.6 46.8-81.2 46.8-130.9C424 103.5 331.5 11 217.5 11 103.4 11 11 103.5 11 217.5S103.4 424 217.5 424c49.7 0 95.2-17.5 130.8-46.7L466.1 495c8 8 20.9 8 28.9 0 8-7.9 8-20.9 0-28.8zm-277.5-83.3C126.2 382.9 52 308.7 52 217.5S126.2 52 217.5 52C308.7 52 383 126.3 383 217.5s-74.3 165.4-165.5 165.4z"/></svg>
+                                    </span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mt-10 bg-gray-100 rounded-sm p-5">
+                        <div class="pb-6">
+                            <div class="w-10 mx-auto mt-6 text-gray-900">
+                                <svg class="fill-current" viewBox="-1 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M505.668 246.465c-.89-.906-54.297-54.309-55.668-55.68V55c0-30.328-24.672-55-55-55H115C84.672 0 60 24.672 60 55v135.785C.379 250.406 0 248.301 0 257v210c0 24.813 20.188 45 45 45h420c24.813 0 45-20.188 45-45V257c0-3.855-1.54-7.71-4.332-10.535zm-35.992 6.426L450 262.73v-29.516zM115 30h280c13.785 0 25 11.215 25 25v222.73l-120 60V197c0-8.285-6.715-15-15-15H135c-8.285 0-15 6.715-15 15v95.73l-30-15V55c0-13.785 11.215-25 25-25zm155 257.973l-66.68-44.453a15.004 15.004 0 00-15.027-.938L150 261.73V212h120zm-120 7.297l43.922-21.961L270 324.027v28.703l-15 7.5-105-52.5zm-90-32.54l-19.676-9.84L60 233.216zM465 482H45c-8.27 0-15-6.73-15-15V281.27l218.293 109.148a15.008 15.008 0 0013.414 0L480 281.27V467c0 8.27-6.73 15-15 15zm0 0"/><path d="M195 91h120c8.285 0 15-6.715 15-15s-6.715-15-15-15H195c-8.285 0-15 6.715-15 15s6.715 15 15 15zm0 0M135 151h240c8.285 0 15-6.715 15-15s-6.715-15-15-15H135c-8.285 0-15 6.715-15 15s6.715 15 15 15zm0 0M375 181h-30c-8.285 0-15 6.715-15 15s6.715 15 15 15h30c8.285 0 15-6.715 15-15s-6.715-15-15-15zm0 0M375 241h-30c-8.285 0-15 6.715-15 15s6.715 15 15 15h30c8.285 0 15-6.715 15-15s-6.715-15-15-15zm0 0"/></svg>
+                            </div>
+                            <h2 class="font-light text-xl mb-2 text-center pt-5 text-gray-900">Subscribe to our newsletter</h2>
+                            <span class="block text-center article-body text-xs italic">Get the news right in your inbox!</span>
+                            <form action="">
+                                <div class="bg-white border border-gray-400 mt-5 rounded-sm overflow-hidden">
+                                    <input class="bg-transparent w-full p-3" type="text" name="name" id="" placeholder="First Name">
+                                </div>
+                                <div class="bg-white border border-gray-400 mt-3 rounded-sm overflow-hidden">
+                                    <input class="bg-transparent w-full p-3" type="email" name="email" id="" placeholder="Email Address">
+                                </div>
+                                <div class="mt-3 article-body text-xs italic">
+                                    <span class="inline-block pr-1">
+                                        <input type="checkbox" name="" id="privacy-check">
+                                    </span>
+                                    <label for="privacy-check">By checking this you agree to our <a href="" class="text-orange-500">Privacy Policy</a>.</label>
+                                </div>
+                               <!--w-full rounded-sm bg-indigo-600 text-white tracking-widest text-sm uppercase font-medium py-3 mt-5--> 
+                                <button type="submit" class="w-full rounded-sm bg-indigo-600 text-white tracking-widest text-sm uppercase font-medium py-3 mt-5 px-5  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110   items-center justify-center border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-yellow-300 lg:px-5 md:py-4 md:text-lg md:px-10 sm:px-2">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="mt-10">
+                        <h2 class="font-light text-xl mb-5 text-gray-900 text-center">Categories</h2>
+                        <ul>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Programming Tips</a><span class="text-gray-700 text-lg font-thin p-2">2</span></li>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Coding Life</a><span class="text-gray-700 text-lg font-thin p-2">10</span></li>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Life as a Developer</a><span class="text-gray-700 text-lg font-thin p-2">7</span></li>
+                            <li class="flex"><a href="" class="text-gray-900 font-thin font-serif text-lg py-2 block flex-1">Software Developer</a><span class="text-gray-700 text-lg font-thin p-2">4</span></li>
+                        </ul>
+                    </div>
+                    <div class="mt-10">
+                        <h2 class="font-light text-xl mb-5 text-gray-900 text-center">Recent Posts</h2>
+                        <ul>
+                            <li class="mb-3">
+                                <a href="" class="flex">
+                                    <div class="w-1/3">
+                                        <img class="rounded" src="testimage.png" alt="">
+                                    </div>
+                                    <div class="w-2/3 p-2">
+                                        <h3 class="text-gray-900 font-thin font-serif mb-2">How To Program More By Coding Less...</h3>
+                                        <span class="text-xs text-gray-800 font-thin block mb-5">July 02, 2021</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="flex">
+                                    <div class="w-1/3">
+                                        <img class="rounded" src="testimage.png" alt="">
+                                    </div>
+                                    <div class="w-2/3 p-2">
+                                        <h3 class="text-gray-900 font-thin font-serif mb-2">How To Program More By Coding Less</h3>
+                                        <span class="text-xs text-gray-800 font-thin block mb-5">July 02, 2021</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="mb-3">
+                                <a href="" class="flex">
+                                    <div class="w-1/3">
+                                        <img class="rounded" src="testimage.png" alt="">
+                                    </div>
+                                    <div class="w-2/3 p-2">
+                                        <h3 class="text-gray-900 font-thin font-serif mb-2">How To Program More By Coding Less...</h3>
+                                        <span class="text-xs text-gray-800 font-thin block mb-5">July 02, 2021</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            
+            <button class="rounded-sm bg-indigo-600 text-white tracking-widest text-sm uppercase font-medium py-3 mt-5 px-5  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110   items-center justify-center border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-yellow-300 lg:px-5 md:py-4 md:text-lg md:px-10 sm:px-2">Load more articles</button>
+            <!--rounded-sm bg-indigo-600 text-white tracking-widest text-sm uppercase font-medium py-3 mt-5 px-5--->
+        </div>
+    </main>
+    <!--End of the body code-->
+
+
+
+        <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700">  
+    
+            <div class="container mx-auto px-6"> 
+              <div class="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-6">
+                  <p class="text-sm text-indigo-600 font-bold mb-2">
+                      © 2020 Gretsa ICT Club     
+                  </p>
+                  <div class="lg:text-center sm:text-center justify-between">
+                    <a href=""><i class="fab fa-instagram fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                    <a href="https://github.com/gretsaictclubmain"><i class="fab fa-github fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                    <a href=""><i class="fab fa-youtube fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>  
+        </footer>
+        <!-- navbar js -->
+        <script src="nav.js"></script>
+    </body>
+</html>
