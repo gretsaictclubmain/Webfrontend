@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Event</title>
+
+        <!-- Primary Meta Tags -->
+        <title>GretsaIctClub</title>
+        <meta name="title" content="GretsaIctClub : Online Portfolio.">
+        <meta name="description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://metatags.io/">
+        <meta property="og:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+        <meta property="og:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+        <!-- <meta property="twitter:image" content=""> -->
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://metatags.io/">
+        <meta property="twitter:title" content="GretsaIctClub : This is a simple demonstration showcasing our club.">
+        <meta property="twitter:description" content="This is a simple demonstration showcasing what we do and what we aspire to be in the future.">
+        <!-- <meta property="twitter:image" content=""> -->
+
+        <!-- Tailwind CDN -->
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+
+        <!-- custom css -->
+        <link href="/tailwind.css" rel="stylesheet">
+        <link href="nav.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="node_modules/hover.css/css/hover.css">
+    </head>
+    <body class="antialiased bg-gray-200">
+        <header class="lg:px-16 px-6 bg-white flex flex-wrap flex-row items-center justify-between lg:py-1 py-5 relative">
+            <div class="flex-1 flex justify-between items-center">
+              <a href="index.html" class="block">
+                <span class="sr-only">GretsaIctClub</span>
+                <img class="h-6 md:h-8" src="images/testimage.png" alt="Logo" title="Logo">
+              </a>
+              <!-- <label for="menu-toggle" class="cursor-pointer lg:hidden-block"><i class="fill-current text-gray-900 fas fa-bars"><title>Menu</title></i></label> -->
+              <div class="flex md:hidden">
+                <button id="hamburger">
+                  <img class="toggle block" src="https://img.icons8.com/fluent-systems-regular/2x/menu-squared-2.png" width="40" height="40" />
+                  <img class="toggle hidden" src="https://img.icons8.com/fluent-systems-regular/2x/close-window.png" width="40" height="40" />
+                </button>
+              </div>
+              <div class="toggle hidden md:flex w-full md:w-auto text-center text-bold mt-5 md:mt-0 md:border-none" id="menu">
+                    <nav class="absolute md:relative top-16 left-0 md:top-0 z-20 md:flex flex-col md:flex-row md:space-x-6 font-semibold w-full md:w-auto bg-white shadow-md rounded-lg md:rounded-none md:shadow-none md:bg-transparent p-6 pt-0 md:p-0">
+                      <ul class="sticky lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+                          <li>
+                              <a href="about.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">About</a>
+                          </li>
+                          <li>
+                              <a href="events.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Events</a>
+                          </li>
+                          <li>
+                              <a href="register.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Registration/Login</a>
+                          </li>
+                          <li>
+                              <a href="blog.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Blog</a>
+                          </li>
+                          <li>
+                              <a href="gallery.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Gallery</a>
+                          </li>
+                          <li>
+                            <a href="fame.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Hall of fame</a>
+                          </li>
+                          <li>
+                              <a href="contact.html" class="lg:p-4 py-3 px-0 justify-between block border-b-2 border-transparent transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white">Contact us</a>
+                          </li>
+                          <li class="relative inline-block text-center dropdown">
+                            <button class="lg:ml-4 flex items-center justify-start lg:mb-0 mb-4 cursor-pointer" type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+                              <img src="images/testimage.png" class="rounded-full w-10 h-10 border-2 border-transparent hover:border-indigo-400" alt="Gretsa Ict Club">
+                              <svg class="w-5 h-5 ml-2 -mr-1" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                            </button>
+      
+                            <div class="opacity-0 invisible dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95">
+                              <div class="absolute right-0 w-56 mt-2 origin-top-right bg-white border border-gray-200 divide-y divide-gray-100 rounded-md shadow-lg outline-none" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                              <div class="px-4 py-3">         
+                                <p class="text-sm leading-5">Signed in as</p>
+                                <p class="text-sm font-medium leading-5 text-gray-900 truncate">tom@example.com</p>
+                              </div>
+                              <div class="py-1">
+                                <a href="#" tabindex="1" class="text-gray-700 flex justify-between w-full px-3 py-2 text-sm leading-5 text-left"  role="menuitem" >Sign out</a></div>
+                              </div>
+                            </div>
+                          </li>
+                        </ul>
+                    </nav>          
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+              <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-12">             
+                <div class="clients grid-cols-2">
+                  <img class="rounded-3xl d-block img-fluid" src="images/testimage.png">
+                </div>
+                <div class="clients grid-cols-2"style="text-align:center;">
+                  <div style="font-weight: bolder; font-size:32px;">
+                    <h2>About event</h2>
+                  </div>
+                  <div class="stddescription" style="font-size:20px;">
+                    <div class="font-bold text-xl mb-2">Host:<span class="px-2">Gretsa University</span></div>
+                    <div class="text-base mb-2">Participants:<span class="px-2">Gretsa University students</span></div>
+                    <div class="text-base mb-2">Event Description:<span class="px-2">Description</span></div>
+                  </div>    
+                </div>                     
+              </div>
+            </div>
+        </section>
+    
+
+        <!-- component -->
+        <div class="clients grid-cols-2" style="text-align:center;">
+            <h2 class="font-extrabold text-3xl">More Events</h2>
+        </div>
+        <div class="lg:flex shadow rounded-lg border  border-gray-400 py-5 px-3">
+            <div class="bg-indigo-600 rounded-lg lg:w-2/12 py-4 block h-full shadow-inner hover:bg-yellow-300">
+            <div class="text-center tracking-wide">
+                <div class="text-white font-bold text-4xl ">24</div>
+                <div class="text-white font-normal text-2xl">July</div>
+            </div>
+            </div>
+            <div class="w-full  lg:w-11/12 xl:w-full px-1 bg-white py-5 lg:px-2 lg:py-2 tracking-wide">
+            <div class="flex flex-row lg:justify-start justify-center">
+                <div class="text-gray-700 font-medium text-sm text-center lg:text-left px-2">
+                <i class="far fa-clock"></i> 1:30 PM
+                </div>
+                <div class="text-gray-700 font-medium text-sm text-center lg:text-left px-2">
+                Organiser : Gretsa University
+                </div>
+            </div>
+            <div class="font-semibold text-gray-800 text-xl text-center lg:text-left px-2">
+                <a href="aboutEvent.html">Gretsa University IT contest.</a>
+            </div>
+
+            <div class="text-gray-600 font-medium text-sm pt-1 text-center lg:text-left px-2">
+                A-142/1, A-142, Ganesh Nagar, Tilak Nagar, Thika, 110018
+            </div>
+            </div>
+            <div class="flex flex-row items-center w-full lg:w-1/3 bg-white lg:justify-end justify-center px-2 py-4 lg:px-0">
+            <span class="tracking-wider text-gray-600 bg-gray-200 px-2 text-sm rounded leading-loose mx-2 font-semibold">
+                Going
+            </span>
+            
+            </div>
+        </div>
+
+        <footer class="footer bg-white relative pt-1 border-b-2 border-blue-700">         
+        <div class="container mx-auto px-6"> 
+            <div class="mt-10 border-t-2 border-gray-300 flex flex-col items-center">
+            <div class="sm:w-2/3 text-center py-6">
+                <p class="text-sm text-blue-700 font-bold mb-2">
+                    © 2020 Gretsa ICT Club     
+                </p>
+                <div class="lg:text-center sm:text-center justify-between">
+                <a href=""><i class="fab fa-instagram fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                <a href="https://github.com/gretsaictclubmain"><i class="fab fa-github fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                <a href=""><i class="fab fa-twitter fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                <a href=""><i class="fab fa-youtube fa-2x space-x-2 text-indigo-600 hover:text-yellow-300"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>  
+        </footer>
+    
+        <!-- navbar js -->
+        <script src="nav.js"></script>
+    </body>
+</html>
